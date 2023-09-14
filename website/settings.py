@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-wp^*_+u-&0l95!keob839&7z2l&vel7qi0z1+_=*)y+usc^p%p
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 INSTALLED_APPS = [
