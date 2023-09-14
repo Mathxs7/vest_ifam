@@ -2,10 +2,11 @@ from pathlib import Path
 import os
 from django.utils.translation import gettext_lazy as _
 
+#BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = Path(__file__).resolve().parent.parent
-#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 STATIC_DIR=os.path.join(BASE_DIR,'static')
+LOCALE_PATHS = [os.path.join(BASE_DIR,'locale'),]
 
 
 SECRET_KEY = 'django-insecure-wp^*_+u-&0l95!keob839&7z2l&vel7qi0z1+_=*)y+usc^p%p'
@@ -28,12 +29,13 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'website.urls'
@@ -41,7 +43,8 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "templates")],        'APP_DIRS': True,
+        'DIRS': [os.path.join(BASE_DIR, "templates")],       
+        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -89,18 +92,19 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LOCALE_PATHS = [os.path.join(BASE_DIR,'locale'),]
 
-LANGUAGES = (
-    ('pt-br', _('Portuguese')),
-    ('en', _('English')),
-)
 
 LANGUAGE_CODE = 'pt-br'
 TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
+
+
+LANGUAGES = (
+    ('pt-br', _('Portuguese')),
+    ('en', _('English')),
+)
 
 
 # Static files (CSS, JavaScript, Images)
