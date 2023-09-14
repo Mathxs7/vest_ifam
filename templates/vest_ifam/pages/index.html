@@ -1,6 +1,6 @@
 {% extends "vest_ifam/base.html" %}
 {% load static %}
-
+{% load i18n %}
 {% block title %}
 VestIfam
 {% endblock title %}
@@ -26,7 +26,7 @@ VestIfam
 <div id="modal" class="modal">
   <div class="modal-content">
     <span class="close-button" onclick="closeModal()">&times;</span>
-    <h2>Faça Login ou Cadastro<br> no VestIFAM</h2> <!-- Adicionando a quebra de linha -->
+    <h2>{% trans "Faça Login ou Cadastro" %}<br> {% trans "no VestIFAM" %}</h2> <!-- Adicionando a quebra de linha -->
     <form>
       <div class="form-group">
         <label for="username">Usuário:</label>
