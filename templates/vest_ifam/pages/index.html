@@ -26,20 +26,20 @@ VestIfam
 <div id="modal" class="modal">
   <div class="modal-content">
     <span class="close-button" onclick="closeModal()">&times;</span>
-    <h2>{% trans "Faça Login ou Cadastro" %}<br> {% trans "no VestIFAM" %}</h2> <!-- Adicionando a quebra de linha -->
+    <h2>"{% trans "Faça Login ou Cadastro" %}"<br>"{% trans "no" %}  VestIFAM"</h2> <!-- Adicionando a quebra de linha -->
     <form>
       <div class="form-group">
-        <label for="username">Usuário:</label>
+        <label for="username">{% trans "Usuário:" %}</label>
         <input type="text" id="username" name="username" placeholder="Digite seu usuário">
       </div>
       <div class="form-group">
-        <label for="password">Senha:</label>
+        <label for="password">{% trans "Senha:" %}</label>
         <input type="password" id="password" name="password" placeholder="Digite sua senha">
       </div>
       <div class="buttons-login">
         <button type="submit">Login</button>
         <div id="buttonDiv"></div> <!-- Aqui será inserido o botão do Google -->
-        <p>Ao se cadastrar você estará concordando com os <u>Termos de Uso</u> e <u>Política de Privacidade</u>.</p>
+        <p>{% trans "Ao se cadastrar você estará concordando com os" %} <u>{% trans "Termos de Uso" %}</u> {% trans "e" %} <u>{% trans "Política de Privacidade" %}</u>.</p>
       </div>
       
     </form>
@@ -100,7 +100,7 @@ VestIfam
   
  
     <div class="green-background">
-        <p>Estude tudo e revise rápido.</p>
+        <p>{% trans "Estude tudo e revise rápido." %}</p>
     </div>
     
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="overflow: hidden; height: 500px; width: 100%; margin-top: 50px;">
@@ -122,11 +122,11 @@ VestIfam
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">{% trans "Voltar" %}</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">{% trans "Próximo" %}</span>
         </button>
       </div>
     
@@ -139,22 +139,22 @@ VestIfam
         <div class="image16">
           <a href="pagina-materiais.html">
             <img src="{% static 'vest_ifam/images/index/16.png'%}">
-            <p class="caption">Materiais</p>
-            <p class="textoembaixo">Resumos, exercícios e<br>muito mais</p>
+            <p class="caption">{% trans "Materiais" %}</p>
+            <p class="textoembaixo">{% trans "Resumos, exercícios e" %}<br>{% trans "muito mais" %}</p>
           </a>
         </div>
         <div class="image17">
           <a href="{% url 'vest_ifam:video_class' %}">
             <img src="{% static 'vest_ifam/images/index/17.png'%}">
-            <p class="caption">VideoAulas</p>
-            <p class="textoembaixo">Link de aulas<br>completas de diversos temas</p>
+            <p class="caption">{% trans "VideoAulas" %}</p>
+            <p class="textoembaixo">{% trans "Link de aulas" %}<br>{% trans "completas de diversos temas" %}</p>
           </a>
         </div>
         <div class="image18">
           <a href="{% url 'vest_ifam:quiz' %}">
             <img src="{% static 'vest_ifam/images/index/18.png'%}">
-            <p class="caption">Perguntas e Respostas</p>
-            <p class="textoembaixo">Perguntas há cada<br>15 minutos de revisão</p>
+            <p class="caption">{% trans "Perguntas e Respostas" %}</p>
+            <p class="textoembaixo">{% trans "Perguntas há cada" %}<br>{% trans "15 minutos de revisão" %}</p>
           </a>
         </div>
         <div class="image19">
@@ -165,29 +165,29 @@ VestIfam
 
 
     <div class="text-container2">
-      <p class="main-text">Estude com mais facilidade.</p>
+      <p class="main-text">{% trans "Estude com mais facilidade." %}</p>
       <div class="image-stack">
         <div class="image-container2">
           <a href="page1.html">
             <img src="{% static 'vest_ifam/images/index/21.png'%}" alt="Image 1">
             <div class="image-overlay">
-              <p class="image-text">Vestibulares</p>
+              <p class="image-text">{% trans "Vestibulares" %}</p>
             </div>
           </a>
         </div>
         <div class="image-container2">
-          <a href="page2.html">
+          <a href="{% url 'set-language' 'pt-br' %}">
             <img src="{% static 'vest_ifam/images/index/22.png'%}" alt="Image 2">
             <div class="image-overlay">
-              <p class="image-text">Português</p>
+              <p class="image-text">{% trans "Português" %}</p>
             </div>
           </a>
         </div>
         <div class="image-container2">
-          <a>
+          <a href="{% url 'set-language' 'en' %}">
             <img src="{% static 'vest_ifam/images/index/23.png'%}" onclick="translateToEnglish()"   alt="Image 3" >
             <div class="image-overlay">
-              <p class="image-text">Inglês</p>
+              <p class="image-text">{% trans "Inglês" %}</p>
             </div>
           </a>
       </div>
@@ -200,9 +200,9 @@ VestIfam
 
     <footer>
       <div class="footer-left">
-        <p><strong>Sobre Nós</strong></p>
+        <p><strong>{% trans "Sobre Nós" %}</strong></p>
         <div class="textoembaixofooter1">
-          <p>Utilizem o nosso site<br>Estudantes de ensino médio</p>
+          <p>{% trans "Utilizem o nosso site" %}<br>{% trans "Estudantes de ensino médio" %}</p>
         </div>
       </div>
 
@@ -216,12 +216,12 @@ VestIfam
       </div>
 
         <div class="footer-right">
-          <p><strong>Conteúdos</strong></p>
+          <p><strong>{% trans "Conteúdos" %}</strong></p>
           <div class="textoembaixofooter1">
-            <a href="materiais.html"><p>Materiais de estudo</p></a>
-            <a href="C:\Users\Usuário\Desktop\Rayner\VestIfam\Versões\V5_VestIfam\QUIZ\quiz.html"><p>Perguntas</p></a>
-            <a href="disciplinas.html"><p>Disciplinas</p></a>
-            <a href="todos.html"><p>Todos os Conteúdos</p></a>
+            <a href="materiais.html"><p>{% trans "Materiais de estudo" %}</p></a>
+            <a href="{% url 'vest_ifam:quiz'  %}"><p>{% trans "Perguntas" %}</p></a>
+            <a href="disciplinas.html"><p>{% trans "Disciplinas" %}</p></a>
+            <a href="todos.html"><p>{% trans "Todos os Conteúdos" %}</p></a>
           </div>
         </div>  
     </footer>
@@ -233,10 +233,8 @@ VestIfam
     <script src="https://accounts.google.com/gsi/client" async></script>
     <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <!-- Inclua o jQuery -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
 
     <script src="{% static 'vest_ifam/js/index/script.js' %}"></script>
     <script src="{% static 'vest_ifam/js/index/script2.js' %}"></script>

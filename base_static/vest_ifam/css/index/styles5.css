@@ -17,11 +17,11 @@
 
 .image-container2 {
   position: relative;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .image-container2 img {
-  width: 300px;
+  width: 330px;
 }
 .image-container2:hover{
   cursor: pointer;
@@ -32,6 +32,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -39,7 +40,7 @@
 
 .image-text {
   color: white;
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
   margin-right: 30px;
 }

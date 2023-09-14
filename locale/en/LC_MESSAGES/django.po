@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-14 11:33-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\vest_ifam\pages\index.html:29
+msgid "Faça Login ou Cadastro"
+msgstr "Login or register"
+
+#: .\templates\vest_ifam\pages\index.html:29
+msgid "no"
+msgstr "at the"
+
+#: .\templates\vest_ifam\pages\index.html:32
+msgid "Usuário:"
+msgstr "User:"
+
+#: .\templates\vest_ifam\pages\index.html:36
+msgid "Senha:"
+msgstr "Password:"
+
+#: .\templates\vest_ifam\pages\index.html:42
+msgid "Ao se cadastrar você estará concordando com os"
+msgstr "When registering you will be agreeing with the"
+
+#: .\templates\vest_ifam\pages\index.html:42
+msgid "Termos de Uso"
+msgstr "Terms of use"
+
+#: .\templates\vest_ifam\pages\index.html:42
+msgid "e"
+msgstr "and"
+
+#: .\templates\vest_ifam\pages\index.html:42
+msgid "Política de Privacidade"
+msgstr "Privacy Policy"
+
+#: .\templates\vest_ifam\pages\index.html:103
+msgid "Estude tudo e revise rápido."
+msgstr "Study everything and review fast."
+
+#: .\templates\vest_ifam\pages\index.html:125
+msgid "Voltar"
+msgstr "To go back"
+
+#: .\templates\vest_ifam\pages\index.html:129
+msgid "Próximo"
+msgstr "Next"
+
+#: .\templates\vest_ifam\pages\index.html:142
+msgid "Materiais"
+msgstr "Material"
+
+#: .\templates\vest_ifam\pages\index.html:143
+msgid "Resumos, exercícios e"
+msgstr "Summaries, exercises and"
+
+#: .\templates\vest_ifam\pages\index.html:143
+msgid "muito mais"
+msgstr "a lot more"
+
+#: .\templates\vest_ifam\pages\index.html:149
+msgid "VideoAulas"
+msgstr "Video classes"
+
+#: .\templates\vest_ifam\pages\index.html:150
+msgid "Link de aulas"
+msgstr "Class link"
+
+#: .\templates\vest_ifam\pages\index.html:150
+msgid "completas de diversos temas"
+msgstr "complete of various topics"
+
+#: .\templates\vest_ifam\pages\index.html:156
+msgid "Perguntas e Respostas"
+msgstr "Questions and answers"
+
+#: .\templates\vest_ifam\pages\index.html:157
+msgid "Perguntas há cada"
+msgstr "Questions there are each"
+
+#: .\templates\vest_ifam\pages\index.html:157
+msgid "15 minutos de revisão"
+msgstr "15 minutes of review"
+
+#: .\templates\vest_ifam\pages\index.html:168
+msgid "Estude com mais facilidade."
+msgstr "Study more easily."
+
+#: .\templates\vest_ifam\pages\index.html:174
+msgid "Vestibulares"
+msgstr "Entrance exams"
+
+#: .\templates\vest_ifam\pages\index.html:182
+#, fuzzy
+#| msgid "Portuguese"
+msgid "Português"
+msgstr "Portuguese"
+
+#: .\templates\vest_ifam\pages\index.html:190
+msgid "Inglês"
+msgstr "English"
+
+#: .\templates\vest_ifam\pages\index.html:203
+msgid "Sobre Nós"
+msgstr "About Us"
+
+#: .\templates\vest_ifam\pages\index.html:205
+msgid "Utilizem o nosso site"
+msgstr "Use our website"
+
+#: .\templates\vest_ifam\pages\index.html:205
+msgid "Estudantes de ensino médio"
+msgstr "High School Students"
+
+#: .\templates\vest_ifam\pages\index.html:219
+msgid "Conteúdos"
+msgstr "Content"
+
+#: .\templates\vest_ifam\pages\index.html:221
+msgid "Materiais de estudo"
+msgstr "Study materials"
+
+#: .\templates\vest_ifam\pages\index.html:222
+msgid "Perguntas"
+msgstr "Questions"
+
+#: .\templates\vest_ifam\pages\index.html:223
+msgid "Disciplinas"
+msgstr "Subjects"
+
+#: .\templates\vest_ifam\pages\index.html:224
+msgid "Todos os Conteúdos"
+msgstr "All content"
+
+#: .\templates\vest_ifam\pages\quiz.html:19
+msgid "Começar"
+msgstr "To start"
+
+#: .\templates\vest_ifam\pages\start_quiz.html:14
+msgid "INICIAR"
+msgstr "START"
+
+#: .\templates\vest_ifam\pages\start_quiz.html:21
+msgid ""
+"Não se esqueçam de conferir sua resposta antes de enviá-la, pois uma vez "
+"submetida, não poderá ser alterada."
+msgstr ""
+"Do not forget to check your answer before sending it, as once submitted, it "
+"cannot be changed."
+
+#: .\templates\vest_ifam\pages\start_quiz.html:26
+msgid ""
+"Cada pergunta terá apenas uma resposta correta, você terá um tempo limitado "
+"para responder, então fique ligado!"
+msgstr ""
+"Each question will have only one correct answer, you will have a limited "
+"time to answer, so stay tuned!"
+
+#: .\templates\vest_ifam\pages\start_quiz.html:30
+msgid ""
+"Bem-vindos a este empolgante quiz dos obtidos até aqui conhecimentos! Antes "
+"de começarmos, vamos às regras:"
+msgstr ""
+"Welcome to this exciting quiz of those obtained so far!Before we start, "
+"let's go to the rules:"
+
+#: .\templates\vest_ifam\pages\start_quiz.html:33
+msgid "TESTE SEUS"
+msgstr "Test your"
+
+#: .\templates\vest_ifam\pages\start_quiz.html:33
+msgid "CONHECIMENTOS"
+msgstr "Knowledge"
+
+#: .\templates\vest_ifam\pages\video_class.html:29
+msgid "Espaço Login do cara"
+msgstr "FACE SPACE OF THE FACE"
+
+#: .\templates\vest_ifam\pages\video_class.html:36
+msgid "Todos os Videos"
+msgstr "All videos"
+
+#: .\templates\vest_ifam\pages\video_class.html:47
+#: .\templates\vest_ifam\pages\video_class.html:55
+#: .\templates\vest_ifam\pages\video_class.html:64
+#: .\templates\vest_ifam\pages\video_class.html:72
+#: .\templates\vest_ifam\pages\video_class.html:81
+#: .\templates\vest_ifam\pages\video_class.html:92
+#: .\templates\vest_ifam\pages\video_class.html:100
+#: .\templates\vest_ifam\pages\video_class.html:108
+#: .\templates\vest_ifam\pages\video_class.html:116
+#: .\templates\vest_ifam\pages\video_class.html:127
+msgid "Acessar"
+msgstr "Access"
+
+#: .\website\settings.py:103
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: .\website\settings.py:104
+msgid "English"
+msgstr "English"
+
+#~ msgid "no VestIFAM"
+#~ msgstr "in the garment"
+
+#~ msgid " e "
+#~ msgstr "and"
