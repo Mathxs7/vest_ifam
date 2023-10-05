@@ -48,7 +48,7 @@ VestIfam
   
   <header>
     <nav>
-      <a href="index.html" class="logo-link">
+      <a href="{% url "vest_ifam:index" %}" class="logo-link">
         <div class="logo">
           <img src="{% static 'vest_ifam/images/index/24.png'%}" alt="">
         </div>
@@ -137,7 +137,8 @@ VestIfam
           <img src="{% static 'vest_ifam/images/index/7.png'%}">
         </div>
         <div class="image16">
-          <a href="pagina-materiais.html">
+          <!--pagina-materiais.html-->
+          <a href="#">
             <img src="{% static 'vest_ifam/images/index/16.png'%}">
             <p class="caption">{% trans "Materiais" %}</p>
             <p class="textoembaixo">{% trans "Resumos, exercícios e" %}<br>{% trans "muito mais" %}</p>
